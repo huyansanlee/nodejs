@@ -1,0 +1,4 @@
+npm i mysql2
+sequelize db:migrate --env=staging 
+sequelize db:seed:all --env=staging
+NODE_ENV=staging nodemon server.js            ถ้ารันไม่ผ่านให้ติดตั้ง   npm install -g win-node-env

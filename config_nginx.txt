@@ -1,0 +1,11 @@
+คำสั่งรัน=>   start nginx         ทดสอบฝั่งเว้บ   http://localhost:1111/
+คำสั่งหยุด=> nginx -s stop
+คำสั่งรีสตาร์ท => nginx -s reload
+
+คำสั่งตรวจสอบ service =>  tasklist /fi "imagename eq nginx.exe"
+
+==============backend===================
+1 สร้างโฟลเดอร์ ที่จะเก็บไฟล์โปรเจค
+2 เปิดterminal โหมด cmd ไม่ใช่ shell
+
+3 พิมพ์คำ
